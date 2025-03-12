@@ -1,0 +1,377 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeded;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styles */
+header {
+    background-color: #232f3e;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    animation: slideIn 1s ease-in-out;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+    border: none;
+    /* Hide the border for the Amazon logo */
+}
+
+.location {
+    font-size: 14px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box select {
+    padding: 8px;
+    border: none;
+    background-color: #f3f3f3;
+    color: #0f1111;
+}
+
+.search-box input {
+    padding: 8px;
+    border: none;
+    width: 400px;
+    /* Adjust width as needed */
+}
+
+.search-box button {
+    padding: 8px;
+    border: none;
+    background-color: #febd69;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right>div {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.account {
+    white-space: nowrap;
+}
+
+.header-bottom {
+    background-color: #232f3e;
+    overflow-x: auto;
+    padding: 8px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.header-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.header-bottom li {
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    padding: 10px;
+}
+
+.hero-banner {
+    position: relative;
+    text-align: left;
+    color: black;
+    animation: slideIn 1s ease-in-out;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    /* Adjust height as needed */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.category-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.category-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    /* Add some spacing */
+}
+
+.category-grid .category-images img {
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for animation */
+}
+
+.category-grid .category-images img:hover {
+    transform: scale(1.05);
+    /* Scale up the image on hover */
+}
+
+.category-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.category-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Category Section */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.category {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for animation */
+}
+
+.category:hover img {
+    transform: scale(1.05);
+    /* Scale up the image on hover */
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 8px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.banner-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.banner-content h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.banner-content a {
+    display: inline-block;
+    background: #ff9900;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.banner-content a:hover {
+    background: #e68a00;
+}
+
+/* Arrows */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+    background: black;
+}
+
+/* Offer Sections */
+.offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.offer-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.offer-box h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.offer-box img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+img {
+    border: 3px solid #ddd;
+    /* Add a 3px border to all images */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
