@@ -15,3 +15,4 @@ A pixel-perfect **Amazon homepage clone** built using **HTML5 & CSS3**. This pro
 - **FontAwesome** - Icons for UI enhancement  
 
 ## 📸 Preview  
+https://developer-biswajit05.github.io/amazon-homepage/
