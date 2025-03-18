@@ -15,5 +15,5 @@ A pixel-perfect **Amazon homepage clone** built using **HTML5 & CSS3**. This pro
 - **FontAwesome** - Icons for UI enhancement  
 
 ## 📸 Preview  
-https://developer-biswajit05.github.io/amazon-homepage/
-![Social Medias Icons](https://github.com/user-attachments/assets/93d44a31-562a-4578-88d6-5b5f4b43d095)
+🔗 [View the Live Project](https://developer-biswajit05.github.io/amazon-homepage/)
+![screencapture-developer-biswajit05-github-io-amazon-homepage-2025-03-18-08_49_52](https://github.com/user-attachments/assets/05f25bde-e58d-452d-946f-2c5b1bea7748)
